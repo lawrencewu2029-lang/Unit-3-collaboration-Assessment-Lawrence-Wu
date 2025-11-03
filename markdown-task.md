@@ -39,6 +39,8 @@ Evergreen and aromatic, pine trees thrive in colder regions.
 
 you can use this simple **Javascript** function to identify a tree by its characteristics:
 
+```
+
 function identify_tree(leaf_shape, region){
     if (leaf_shape == "needle" && region == "cold"){
         return "Pine Tree"
@@ -50,7 +52,7 @@ function identify_tree(leaf_shape, region){
 }
 console.log(identify_tree "needle", "cold") 
 
-
+```
     
     
 
